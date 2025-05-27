@@ -13,18 +13,17 @@ export const decks: Deck[] = [
   {
     name: 'FIBONACCI',
     textValues: false,
-    values: [
-      { value: 0, display: 0 },
-      { value: 1, display: 1 },
-      { value: 2, display: 2 },
-      { value: 3, display: 3 },
-      { value: 5, display: 5 },
+    values: [ 
       { value: 8, display: 8 },
-      { value: 13, display: 13 },
-      { value: 21, display: 21 },
-      { value: 34, display: 34 },
-      { value: 55, display: 55 },
-      { value: 89, display: 89 },
+      { value: 16, display: 16 },
+      { value: 24, display: 24 },
+      { value: 32, display: 32 },
+      { value: 40, display: 40 },
+      { value: 48, display: 48 },
+      { value: 56, display: 56 },
+      { value: 64, display: 64 },
+      { value: 72, display: 72 },
+      { value: 80, display: 80 },
     ]
   },
   {
