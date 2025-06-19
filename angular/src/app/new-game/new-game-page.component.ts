@@ -32,6 +32,7 @@ export default class NewGamePageComponent {
       name: newGame.name,
       deck: newGame.deck.name
     }
+    
     this.http.post(`${ environment.backendRootOverride ?? this.pls.getBaseHref() }create`, body, { responseType: 'text' })
       .subscribe((gameId) => this.router.navigate(['game', gameId]));
   }

@@ -1,0 +1,10 @@
+services:
+  planning-poker:
+    image: jacks23/self-host-planning-poker:1.2
+    ports:
+      - 8000:8000
+    volumes:
+      - planning-poker-data:/data
+    restart: always
+volumes:
+  planning-poker-data: {}
